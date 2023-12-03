@@ -33,7 +33,7 @@ object Main {
     }
   }
 
-  private val days: List[Day] = List(new Day1, new Day2)
+  private val days: List[Day] = List(new Day1, new Day2, new Day3)
 
   private def run(day: Int, part: Int): Unit = {
     run(days(day - 1).parts(part - 1), day)
